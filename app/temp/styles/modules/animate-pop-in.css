@@ -1,0 +1,3 @@
+.animate-pop-in {
+  animation: pop-in .6s ease-out forwards;
+  opacity: 0; }

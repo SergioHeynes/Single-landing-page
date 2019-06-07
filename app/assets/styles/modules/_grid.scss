@@ -1,0 +1,18 @@
+.grid {
+
+    @include tablet {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        grid-column-gap: 40px;
+    }
+
+    &__column--t-padding{
+        padding-top: 60px;
+
+        @include tablet {
+            padding-top: 20px;
+        }
+    }
+    
+}
+

@@ -1,0 +1,17 @@
+.site-header {
+
+    &__logo-image {
+        animation: pop-in 1.5s .5s ease-out forwards;
+        opacity: 0;
+        width: 40%;
+
+        @include tablet {
+            width: auto;
+        }
+    }
+
+    &--padding {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+}

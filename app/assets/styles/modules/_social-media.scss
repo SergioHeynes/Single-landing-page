@@ -1,0 +1,40 @@
+.social-media__nav {
+    animation: pop-in 1.5s .5s ease-out forwards;
+    opacity: 0;
+    text-align: center;
+
+    @include tablet {
+        text-align: right;
+    }
+
+    
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        display: inline-block;
+        margin-right: 15px;
+    }
+
+    li:last-of-type {
+        margin-right: 0;
+    }
+
+    a {
+        display: inline-block;
+        color: #FFF;
+        border: 1px solid #FFF;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        padding: 10px 12px;
+    }
+
+    &--margin {
+        margin: 60px 0 30px;
+    }
+        
+    
+}
